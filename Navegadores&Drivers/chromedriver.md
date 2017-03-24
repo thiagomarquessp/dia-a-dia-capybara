@@ -37,4 +37,6 @@ Capybara.default_max_wait_time = 60
 Capybara.app_host = "https://www.flube.com.br/"
 ```
 
-Podem executar os seus testes que eles agora vão rodar no Google Chrome.
+Antes de sair executando os testes, no Gemfile será necessário colocar gem 'chromedriver-helper'
+
+Agora sim podem executar os seus testes que eles agora vão rodar no Google Chrome.
