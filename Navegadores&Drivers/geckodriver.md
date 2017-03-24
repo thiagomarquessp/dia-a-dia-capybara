@@ -63,4 +63,4 @@ Agora basta executar os testes que eles vão rodar sempre na última versão do 
 
 Quer aprender a usar o Chromedriver, acessa ai:
 
-[Chromedriver] (https://github.com/thiagomarquessp/capybaraforall/blob/master/README.md);
+[Chromedriver] (https://goo.gl/VLMmoT);
