@@ -67,6 +67,6 @@ cadastro = MeusElementos.new
 cadastro.first_name.set("Primeiro nome do Cliente")
 ```
 
-Então a dica é: IDs dinâmicos, Classes iguais, antes de sair batendo nos devs, leia o HTML e identifique o atributo único daquele elemento. Se mesmo assim não tiver (sim acontece), basta conversar com o dev front e pedir pra ele inserir ou na pior de todas as hipóteses, usar o ["all"] (https://goo.gl/bf1VAJ) e passando o índice do elemento.
+Então a dica é: IDs dinâmicos, Classes iguais, antes de sair batendo nos devs, leia o HTML e identifique o atributo único daquele elemento. Se mesmo assim não tiver (sim acontece), basta conversar com o dev front e pedir pra ele inserir ou na pior de todas as hipóteses, usar o [all] (https://goo.gl/bf1VAJ) e passando o índice do elemento.
 
 Valeu galera!
