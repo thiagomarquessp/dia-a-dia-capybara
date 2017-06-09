@@ -86,3 +86,32 @@ end
 ```
 
 Onde o atributo `verbose: true` serve para obtermos os logs no nível de debug, e no atributo `log_path` você define em qual diretório o log será armazenado.
+
+### Agora com Headles =)
+
+Bom, a partir da versão 59 do Chrome, a opção headless pode ser usada sem moderação, então não é mais necessário poltergeist ou xvfb ou capybara webkit para rodar seus testes em headless.
+
+Bem, seguindo as configurações no arquivo env.rb, segue agora o argumento headles:
+
+```ruby
+Capybara.register_driver :selenium do |app|
+    Capybara::Selenium::Driver.new(app,
+    :browser => :chrome,
+    :desired_capabilities => Selenium::WebDriver::Remote::Capabilities.chrome(
+      'chromeOptions' => {
+        'args' => ["headless"]
+      }
+    )
+  )
+end
+
+Capybara.configure do |config|
+    config.default_driver = :selenium
+    config.app_host = 'http://url.com.br'
+end
+```
+Vai ser repetitivo, mas não se esqueçam que para ambientes Unix, vai ser necessário colocar a gem 'chromedriver-helper' no Gemfile OK.
+
+Com relação aos números de performance, não achei muito atrativo, reduziu o tempo de execução em 1 segundo apenas, mas estou colhendo números para postar aqui, mas mesmo assim, é válido o uso dele, e provavelmente os problemas de Session que o capybara tem com o webkit ou poltergeist vão deixar de existir.
+
+Até a próxima.
