@@ -27,9 +27,8 @@ class Cadastro < SitePrism::Page
   element :cpf_do_usuario, '//input[@name="xpath_cpf"]'
   element :botao_cadastrar, '.classe_btn'
 end
-
-Basicamente criamos uma classe Cadastro e instanciamos o método Page do SitePrism. Para se aprofundar um pouco mais acesse o [github](https://github.com/natritmeyer/site_prism) do SitePrism.
 ```
+Basicamente criamos uma classe Cadastro e instanciamos o método Page do SitePrism. Para se aprofundar um pouco mais acesse o [github](https://github.com/natritmeyer/site_prism) do SitePrism.
 
 E agora vem a parte interessante da história, que é refatorar aquele nosso código:
 
