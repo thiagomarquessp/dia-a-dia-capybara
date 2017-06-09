@@ -8,7 +8,7 @@ O porque dessa chatice é bem simples: não precisar desenvolver a rotina de log
 
 Simples de se entender, e essa parte acima eu apelidei de Page Step Objects, pois no método eu tenho uma rotina de step by step que vão resultar em um objetivo (por exemplo, realizar o Login). Como eu chamei de Page Step Object, eu criei um arquivo que trata apenas desse conceito:
 
-[Sobre Page Step Objecs](https://github.com/thiagomarquessp/flub.md)
+[Sobre Page Step Objecs](https://github.com/thiagomarquessp/dia-a-dia-capybara/blob/master/PageObjects/page-step-objects/page-step-objects.md)
 
 PS: PARA SABER SOBRE O PAGE OBJECT DE ACORDO COM O GURU DA BAGAÇA, SEGUE O [LINK](https://martinfowler.com/bliki/PageObject.html)
 
