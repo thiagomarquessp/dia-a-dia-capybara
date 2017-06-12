@@ -56,7 +56,7 @@ click_button 'Cadastrar'
 
 Depois com SitePrism:
 
-@cadastro_usuario = Cadstro.new
+@cadastro_usuario = Cadastro.new
 @cadastro_usuario.nome_do_usuario.set("Teste Nome do Usuario")
 @cadastro_usuario.endereco_do_usuario.set("Rua teste do Usuário")
 @cadastro_usuario.cpf_do_usuario.set("1234567890")
@@ -65,4 +65,4 @@ Depois com SitePrism:
 
 Não percam esse exemplo, porque vou usá-lo no outro modelo de Page Objects, que carinhosamente eu chamo de Page Step Objects e também irei usar para falar sobre Hooks =).
 
-Até! 
+Até!
