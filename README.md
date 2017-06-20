@@ -6,7 +6,7 @@ Ultimamente eu venho recebendo alguns contatos com dúvidas sobre como configura
 
 Em princípio eu vou colocando em várias pastas exemplos e como se deve trabalhar com uma técnica ou outra e colocar uma referência (geralmente a própria documentação).
 
-Vou tentar fazer isso pelo menos 1 x a cada semana ou a cada 15 dias, tudo vai depender de como o tempo vai estar =).
+Vou tentar fazer isso pelo menos 1 x a cada semana ou a cada 15 dias, tudo vai depender de como o tempo vai estar. 
 
 O repositório é aberto, então, caso alguém tenha algum problema e resolveu de alguma forma, forka ai e abre PR e vamo que vamo!
 
