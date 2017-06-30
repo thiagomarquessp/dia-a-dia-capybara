@@ -5,10 +5,17 @@ Fala pessoal, de uns tempos para cá algumas pessoas me abordam com a seguinte d
 Mas não é assim tão fácil de configurar um ambiente para essa gem, ou seja, não adianta sair dando "gem install sequel" que não vai funcionar. Para que a instalção faça sentido, vamos precisar dos pré requisitos:
 
 ```ruby
-PostgresSQL = sudo apt-get install postgresql
-Phyton = sudo apt-get install python-psycopg2
-Libs = sudo apt-get install libpq-dev
-Gem PG = https://github.com/ged/ruby-pg
-Gem Sequel = https://github.com/jeremyevans/sequel
-Gem sqlite3 = https://github.com/sparklemotion/sqlite3-ruby
+Instalar:
+- PostgresSQL = sudo apt-get install postgresql
+- Phyton = sudo apt-get install python-psycopg2
+- Libs = sudo apt-get install libpq-dev
+```
+E vamos precisar das seguintes gems instaladas:
+
+```ruby
+Obs.: Sabe que o ideal é colocar no Gemfile certo??
+
+gem install pg
+gem install sequel
+gem install sqlite3
 ```
