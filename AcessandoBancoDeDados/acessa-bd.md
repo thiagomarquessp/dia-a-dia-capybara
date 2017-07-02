@@ -31,7 +31,6 @@ source "https://rubygems.org"
 gem 'capybara'
 gem 'cucumber'
 gem 'selenium-webdriver'
-gem 'sequel'
 gem 'pg'
 gem 'sqlite3'
 gem 'mysql2'
@@ -43,14 +42,13 @@ E nosso env:
 ```ruby
 require 'capybara/cucumber'
 require 'selenium-webdriver'
-require 'sequel'
 require 'pg'
 require 'sqlite3'
 require 'mysql2'
 require 'rspec'
 ```
 
-# Usando o sequel
+# Usando o Mysql2
 
 Vamos imaginar que ja temos um step e queremos fazer uma consulta no banco para sei lá, validar se o nome que colocamos no teste está registrado de forma correta. Com esse cenário, vamos trabalhar da seguinte maneira:
 
