@@ -98,7 +98,7 @@ login-step-objects.rb
 class Login
   include Capybara::DSL
 
-    def login_successo
+    def login_sucesso
       @login = LoginMapObjects.new
       visit "/"
       @login.nome_do_usuario.set('username@user.com')
