@@ -63,4 +63,4 @@ Agora basta executar os testes que eles vão rodar sempre na última versão do 
 
 Quer aprender a usar o Chromedriver, acessa ai:
 
-[Chromedriver] (https://goo.gl/VLMmoT);
+[Chromedriver](https://goo.gl/VLMmoT);
