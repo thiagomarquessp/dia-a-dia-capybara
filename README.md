@@ -8,6 +8,6 @@ Em princípio eu vou colocando em várias pastas exemplos e como se deve trabalh
 
 Vou tentar fazer isso pelo menos 1 x a cada semana ou a cada 15 dias, tudo vai depender de como o tempo vai estar. 
 
-O repositório é aberto, então, caso alguém tenha algum problema e resolveu de alguma forma, forka ai e abre PR e vamo que vamo!
+O repositório é aberto, então, caso alguém tenha algum problema e resolveu de alguma forma, contribua e vamo que vamo!
 
 Um abraço.
