@@ -61,4 +61,4 @@ login.botao_entrar.click
 
 Ficou bem mais clean certo, então vamos trabalhar com esse conceito no link direto:
 
-[Page Objects com Site Prims](https://github.com/thiagomarquessp/dia-a-dia-capybara/blob/master/PageObjects/page-objects-siteprism/page-objects-siteprism.md)
+[Page Objects com Site Prism](https://github.com/thiagomarquessp/dia-a-dia-capybara/blob/master/PageObjects/page-objects-siteprism/page-objects-siteprism.md)
