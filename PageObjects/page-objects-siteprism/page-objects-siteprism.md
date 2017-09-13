@@ -62,6 +62,6 @@ Depois com SitePrism:
 @cadastro_usuario.botao_cadastrar.click
 ```
 
-Não percam esse exemplo, porque vou usá-lo no outro modelo de Page Objects, que carinhosamente eu chamo de [Page Step Objects] (https://github.com/thiagomarquessp/dia-a-dia-capybara/blob/master/PageObjects/page-step-objects/page-step-objects.md) e também irei usar para falar sobre Hooks =).
+Não percam esse exemplo, porque vou usá-lo no outro modelo de Page Objects, que carinhosamente eu chamo de [Page Step Objects](https://github.com/thiagomarquessp/dia-a-dia-capybara/blob/master/PageObjects/page-step-objects/page-step-objects.md) e também irei usar para falar sobre Hooks =).
 
 Até!
