@@ -112,6 +112,4 @@ end
 ```
 Vai ser repetitivo, mas não se esqueçam que para ambientes Unix, vai ser necessário colocar a gem 'chromedriver-helper' no Gemfile OK.
 
-Com relação aos números de performance, não achei muito atrativo, reduziu o tempo de execução em 1 segundo apenas, mas estou colhendo números para postar aqui, mas mesmo assim, é válido o uso dele, e provavelmente os problemas de Session que o capybara tem com o webkit ou poltergeist vão deixar de existir.
-
 Até a próxima.
