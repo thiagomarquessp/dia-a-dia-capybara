@@ -6,7 +6,7 @@ Como sabemos, o capybara infelizmente não faz interage com as janelas nativas d
 
 ## Buscando o tipo de elemento que faça sentido
 
-Parta do princípio que todo elemento que você clique e faça alguma iteração para fazer upload guarda bem no seu íntimo o tipo '<input>' e é exatamente ai que devemos nos esforçar e encontrar esse '<input>' mas de repente pode estar na cara =) e basta usar o comando do find passando o path da imagem, por exemplo:
+Parta do princípio que todo elemento(componente) que você clique e faça alguma iteração para fazer upload guarda bem no seu íntimo o tipo **'input'** e é exatamente ai que devemos nos esforçar e encontrar esse **'input'** mas de repente pode estar na cara =) e basta usar o comando do ***find*** passando o path da imagem, por exemplo:
 
 ```ruby
 <div id="id-xpto" class="flube xpto htmlbutton ">
