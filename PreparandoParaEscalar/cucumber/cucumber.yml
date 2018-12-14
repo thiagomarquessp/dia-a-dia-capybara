@@ -1,0 +1,11 @@
+##YAML Template
+---
+default: -p chrome -p qa-environment
+ci: -p json_report -p chrome_headless -p qa-environment
+html_report: --format pretty --format html --out=features_report.html
+json_report: --format pretty --format json --out=report/features_report.json
+chrome: BROWSER=chrome
+chrome_headless: BROWSER=chrome_headless
+qa-environment: ENVIRONMENT_TYPE=qa-env
+staging-environment: ENVIRONMENT_TYPE=staging-env
+prod-environment: ENVIRONMENT_TYPE=prod-env
