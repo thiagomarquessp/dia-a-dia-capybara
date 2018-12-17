@@ -33,4 +33,5 @@ Bem, o uso do **pry** é bem simples e com apenas um comando para que ele pare d
 
 Exemplo utilizando o pry nos arquivos de steps:
 ![alt text][logo]
-[logo]:(https://github.com/thiagomarquessp/dia-a-dia-capybara/tree/TP-DebugPry/DegugComPry/common-images/steps-pry.png "Arquivos de Step Definitions")
+
+[logo](https://github.com/thiagomarquessp/dia-a-dia-capybara/tree/TP-DebugPry/DegugComPry/common-images/steps-pry.png "Arquivos de Step Definitions")
