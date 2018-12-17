@@ -3,6 +3,7 @@ require 'capybara/dsl'
 require 'capybara/cucumber'
 require 'selenium-webdriver'
 require 'pry'
+require 'rspec'
 
 BROWSER = ENV['BROWSER']
 ENVIRONMENT_TYPE = ENV['ENVIRONMENT_TYPE']
