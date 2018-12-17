@@ -31,3 +31,4 @@ require 'pry'
 
 Bem, o uso do **pry** é bem simples e com apenas um comando para que ele pare deixando pronto pra usar, que é ***binding.pry***. Vou colocar uma estrutura básica para exemplificar: 
 
+![alt text](https://github.com/thiagomarquessp/dia-a-dia-capybara/tree/TP-DebugPry/DegugComPry/common-images/steps-pry.png "Arquivos de Step Definitions")
